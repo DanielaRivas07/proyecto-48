@@ -36,5 +36,5 @@ const heart = document.querySelector("footer.main span[title='<3']");
 
   function agrandarTexto(elemento) {
     elemento.classList.add('agrandado');
-    elemento.removeEventListener('click', agrandarTexto); /* Elimina el evento después del primer clic */
+    elemento.removeEventListener('click', agrandarTexto); 
   }
