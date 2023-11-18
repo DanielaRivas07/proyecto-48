@@ -358,7 +358,9 @@ footer{
   display: flex;
   
 }
-
+.footer-texto{
+  color: white;
+}
 .contenedor{
   display: flex;
   justify-content: end;
@@ -379,7 +381,7 @@ form{
         
         padding: 5px 10px;
         background: none;
-        border: 2px solid rgba(204, 204, 204, 0.383);
+        border: 2px solid rgba(218, 214, 214, 0.85);
         margin: 5px 0;
         
     }
