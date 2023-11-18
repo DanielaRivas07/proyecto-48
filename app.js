@@ -1,3 +1,5 @@
+// nav con scroll tema blanco 
+
 const navEl = document.querySelector('.navbar');
 
 window.addEventListener('scroll', () => {
@@ -7,6 +9,8 @@ window.addEventListener('scroll', () => {
         navEl.classList.remove('navbar-scrolled')
     }
 });
+
+// nav con scroll tema oscuro
 
 const navEla = document.querySelector('nav');
 
@@ -18,12 +22,16 @@ window.addEventListener('scroll', () => {
     }
 });
 
+// boton de tema blanco y oscuro al hacerle click cambie el tema
+
 const swith = document.querySelector(".switch");
 
 swith.addEventListener("click", e => {
     swith.classList.toggle("active");
     document.body.classList.toggle("active")
 });
+
+// sonido al hacerle click al corazón
 
 const heart = document.querySelector("footer.main span[title='<3']");
 let beat;
@@ -33,7 +41,7 @@ heart.addEventListener("mousedown", () => {
     beat.currentTime = 0;
     beat.play();
 });
-
+// Agrandado del corazon al hacerle click 
 function agrandarTexto(elemento) {
     elemento.classList.add('agrandado');
     elemento.removeEventListener('click', agrandarTexto);
