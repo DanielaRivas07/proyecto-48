@@ -244,7 +244,13 @@ body.active .section4 .card{
 
 
 
-
+@media (min-width:1800px) and (max-width:3000px){
+  footer .contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 footer{
   background-color: rgb(66, 65, 65);
