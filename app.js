@@ -41,6 +41,7 @@ heart.addEventListener("mousedown", () => {
     beat.currentTime = 0;
     beat.play();
 });
+
 // Agrandado del corazon al hacerle click 
 function agrandarTexto(elemento) {
     elemento.classList.add('agrandado');
